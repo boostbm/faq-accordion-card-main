@@ -3,11 +3,16 @@ body {
   padding: 0;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-img {
-  width: 600px;
+.container {
+  width: 1000px;
   height: 600px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .attribution {
