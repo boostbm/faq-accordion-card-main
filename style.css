@@ -5,6 +5,11 @@ body {
   min-height: 100vh;
 }
 
+img {
+  width: 600px;
+  height: 600px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
