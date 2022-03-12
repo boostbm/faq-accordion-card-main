@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
+:root {
+  --VeryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+}
+
 body {
   margin: 0;
   padding: 0;
