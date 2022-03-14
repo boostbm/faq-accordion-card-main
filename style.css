@@ -16,6 +16,7 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   min-height: 100vh;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +32,9 @@ body {
 .card-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.card-box h1 {
 }
 
 .attribution {
