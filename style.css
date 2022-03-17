@@ -9,13 +9,16 @@
   --DarkGrayishBlue: hsl(240, 6%, 50%);
   --LightGrayishBlue: hsl(240, 5%, 91%);
 }
-
+html {
+  font-size: 12px;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -23,15 +26,19 @@ body {
 }
 
 .container {
-  width: 1000px;
-  height: 600px;
+  width: 920px;
+  height: 509px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 30px;
+  background-image: url(/images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 1260% 65%;
 }
 
 .card-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 6rem;
 }
 
 .card-box h1 {
