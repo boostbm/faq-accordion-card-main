@@ -67,12 +67,39 @@ body {
 .question_answer {
   width: 350px;
   border-bottom: 1px solid var(--LightGrayishBlue);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.question_answer img {
+  align-self: center;
 }
 
 .question {
   font-size: 1.2rem;
   font-weight: 400;
+  margin: 1.4rem 0rem;
+  color: var(--VeryDarkGrayishBlue);
 }
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper-inner {
+  background: url(/images/illustration-woman-online-desktop.svg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 120% center;
+}
+.box {
+  position: absolute;
+  top: 42%;
+  left: -25%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
