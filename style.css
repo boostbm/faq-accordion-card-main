@@ -41,9 +41,38 @@ body {
   grid-gap: 6rem;
 }
 
-.card-box h1 {
+.answer {
+  display: none;
 }
 
+.accordian-wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordian-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-bottom: 1px solid var(--LightGrayishBlue);
+}
+
+.accordian-title {
+  font-size: 3rem;
+  margin-top: 0px;
+}
+
+.question_answer {
+  width: 350px;
+  border-bottom: 1px solid var(--LightGrayishBlue);
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
