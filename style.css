@@ -35,7 +35,7 @@ body {
   background-position: 1260% 65%;
 }
 
-.card-box {
+.card_box {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 6rem;
@@ -45,13 +45,13 @@ body {
   display: none;
 }
 
-.accordian-wrapper {
+.accordian_wrapper {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
 }
 
-.accordian-text {
+.accordian_text {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -59,12 +59,12 @@ body {
   border-bottom: 1px solid var(--LightGrayishBlue);
 }
 
-.accordian-title {
+.accordian_title {
   font-size: 3rem;
   margin-top: 0px;
 }
 
-.question_answer {
+.question {
   width: 350px;
   border-bottom: 1px solid var(--LightGrayishBlue);
   display: flex;
@@ -73,22 +73,22 @@ body {
   transition: 0.3s;
 }
 
-.question_answer img {
+.question img {
   align-self: center;
 }
 
-.question {
+.question_title {
   font-size: 1.2rem;
   font-weight: 400;
   margin: 1.4rem 0rem;
   color: var(--VeryDarkGrayishBlue);
 }
 
-.image-wrapper {
+.image_wrapper {
   position: relative;
 }
 
-.image-wrapper-inner {
+.image_wrapper_inner {
   background: url(/images/illustration-woman-online-desktop.svg);
   height: 100%;
   background-repeat: no-repeat;
