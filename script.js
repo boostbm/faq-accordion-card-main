@@ -8,7 +8,5 @@ document.querySelectorAll(".question").forEach((question) => question.addEventLi
     document.querySelectorAll(".question").forEach(question => question.parentNode.classList.remove("active"))
 
     question.parentNode.classList.add("active")
-  }
-
-   
+  }   
 }))
