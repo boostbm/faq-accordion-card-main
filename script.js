@@ -8,7 +8,8 @@ questions.forEach((question) => question.addEventListener('click', () => {
   }
   else {
     questions.forEach((question) => question.parentNode.classList.remove('active'));
+
+
+    
   }
 }))
-
-console.log(questions);
