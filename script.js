@@ -7,7 +7,6 @@ questions.forEach((question) => question.addEventListener('click', () => {
     question.parentNode.classList.toggle('active'); 
   }
   else {
-    questions.forEach((question) => question.parentNode.classList.remove('active'));
-    
+    questions.forEach((question) => question.parentNode.classList.remove('active')); 
   }
 }))
